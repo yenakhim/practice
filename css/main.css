@@ -1,4 +1,25 @@
+/* COMMON */
 body {
-	color: blueviolet;
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
 	font-family: 'Montserrat', sans-serif;
+}
+img {
+	display: block;
+}
+
+/* HEADER */
+header {
+}
+header .inner {
+	margin: 0 auto;
+	position: relative;
+}
+header .logo {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 }
