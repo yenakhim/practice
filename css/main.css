@@ -7,7 +7,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 img {
-	display: block;
+	display: inline-block;
+	width: 150px;
+}
+a {
+	text-decoration: none;
+	color: #333;
 }
 
 /* HEADER */
@@ -19,7 +24,23 @@ header .inner {
 }
 header .logo {
 	position: absolute;
-	top: 0;
+	top: 15px;
 	bottom: 0;
-	margin: auto;
+}
+#grid {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	border-bottom: 1px solid #deba9d;
+	padding-bottom: 50px;
+}
+.submenu {
+	display: inline-block;
+	padding: 2rem;
+	margin-top: 40px;
+}
+.submenu a {
+	margin: 20px;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	color: #9e7777;
 }
