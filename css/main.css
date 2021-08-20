@@ -7,7 +7,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 img {
-	display: inline-block;
+	display: block;
 	width: 150px;
 }
 a {
@@ -43,4 +43,28 @@ header .logo {
 	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
 	color: #9e7777;
+}
+@media (max-width: 500px) {
+	#grid {
+		display: block;
+		border-bottom: none;
+	}
+	header .logo {
+		position: absolute;
+		top: 15px;
+		bottom: 0;
+		left: 180px;
+	}
+	.submenu {
+		display: inline-block;
+		margin-top: 150px;
+		border-top: 1px solid #deba9d;
+	}
+	.submenu a {
+		display: inline-block;
+		margin: 5px;
+		font-size: 30px;
+		width: 100%;
+		text-align: center;
+	}
 }
