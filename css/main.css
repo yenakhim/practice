@@ -1,6 +1,7 @@
 /* COMMON */
 body {
 	color: #333;
+	background-color: #fff;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.4;
@@ -8,7 +9,6 @@ body {
 }
 img {
 	display: block;
-	width: 150px;
 }
 a {
 	text-decoration: none;
@@ -26,6 +26,9 @@ header .logo {
 	position: absolute;
 	top: 15px;
 	bottom: 0;
+}
+.logo-img {
+	width: 150px;
 }
 #grid {
 	display: grid;
@@ -67,4 +70,45 @@ header .logo {
 		width: 100%;
 		text-align: center;
 	}
+}
+
+/* BODY */
+.row {
+	overflow: visible;
+}
+.col {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.col-1 {
+	background-color: #9e7777;
+}
+.col-2 {
+	background-color: #f5e8c7;
+}
+.col-3 {
+	background-color: #deba9d;
+}
+@media (max-width: 500px) {
+	.col {
+		width: 100%;
+	}
+	.gen-img {
+		display: none;
+	}
+}
+.gen-img {
+	width: 400px;
+	height: 800px;
+	margin: 30px;
+}
+.gen-link {
+	display: inline-block;
+	background-color: #fff;
+	color: brown;
+	padding: 20px;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: 700;
 }
